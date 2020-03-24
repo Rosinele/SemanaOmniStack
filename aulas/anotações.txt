@@ -1,0 +1,22 @@
+> O JavaScript é essencial para quem quer trabalhar com web, não tem como fugir disto.
+> #Dica: Ferramenta para anotações
+	notion.so
+> #Dica: Desenhar mocap de aplicações
+	figma.com
+> Como se dá a utilização do Node?
+	Back-end, Banco de dados, definição de rotas...
+	É o motor do chrome para interpretar JS, só que fora do navegador, foi desacoplado.
+> É necessário instalar o Node como gerenciador de pacote para facilitar a desinstalação, etc.
+	sando o chocolatey. #INstalling Node.js via package manager.
+> JSON é uma estrutura de dados dentro da programação que faz a comunicação do Back-End com o Front-End.
+> Criar projeto Back-End
+	npm init -y
+> Instalar Framework de rotas
+	npm install express
+> Abordagem de SPA
+	As requisições trazem apenas dados como respostas e, com esses dados, o Front-end pode preencher as infomações na tela (Resposta JSON)
+> Criando o projeto Front-End React
+	npm executa pacote externo sem a necessidade de instalar. npm realiza a instalação.
+	npx create-react-app Front-End
+> JavaScript core
+	Responsável pela comunicação do React com o sistema operacional mobile.
