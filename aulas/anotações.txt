@@ -21,3 +21,10 @@
 	npx create-react-app Front-End
 > JavaScript core
 	Respons�vel pela comunica��o do React com o sistema operacional mobile.
+> Rotas e recursos
+	Rotas correspondem ao caminho completo, já os recursos são páginas especificas, faz parte das rotas.
+> Métodos HTTP:
+	GET: Buscar uma informação do back-end
+	POST: Ciar uma informação no back-end
+	PUT: Alterar uma informação no back-end
+	DELETE: Deletar uma informação no back-end
