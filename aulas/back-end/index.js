@@ -14,7 +14,7 @@ app.post('/users/', (request, response) =>{
 
     return response.json({
         evento: 'Semana OmniStack 1.0',
-        aluno: 'Rose Félix'
+        aluno: 'Maria Rose Félix do Nascimento'
     });
 });
 
