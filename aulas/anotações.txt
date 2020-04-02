@@ -25,6 +25,12 @@
 	Rotas correspondem ao caminho completo, já os recursos são páginas especificas, faz parte das rotas.
 > Métodos HTTP:
 	GET: Buscar uma informação do back-end
+		Quando eu acesso a rota no navegador.
 	POST: Ciar uma informação no back-end
 	PUT: Alterar uma informação no back-end
 	DELETE: Deletar uma informação no back-end
+
+> Tipos de parâmetros:
+	QUERY PARAMS: parâmetros nomeados enviados na rota após "?" (Filtros, paginação)
+	ROUTE PARAMS: parâmetros utilizados para identificar recursos
+	REQUEST BODY: Corpo da requisição, utilizado para criar ou alterar recursos
