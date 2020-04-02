@@ -34,3 +34,14 @@
 	QUERY PARAMS: parâmetros nomeados enviados na rota após "?" (Filtros, paginação)
 	ROUTE PARAMS: parâmetros utilizados para identificar recursos
 	REQUEST BODY: Corpo da requisição, utilizado para criar ou alterar recursos
+
+> Banco de dados:
+	SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+	NOSQL: MongoDB, CouchDB, etc
+
+> Configuração de Banco de dados
+	Drive: SELECT * FROM users
+	Query: Builder: taable('users').select('*').where()
+	http://knexjs.org/
+	Iniciar knex
+		npx knex init
