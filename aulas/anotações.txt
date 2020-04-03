@@ -37,7 +37,7 @@
 	// route params const params = request.params;
 	REQUEST BODY: Corpo da requisição, utilizado para criar ou alterar recursos
     // request body const body = request.body;
-	
+
 > Banco de dados:
 	SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
 	NOSQL: MongoDB, CouchDB, etc
@@ -89,8 +89,12 @@ Gerar numero sequencial para o campo id
 		crypt é um pacote criptografia, mas pode nos auxiliar na criação de numeros sequenciais para o nosso campo
 
 Rota para listar todos os dados que foram adicionados em uma determinada tabela
-	routes.get('/ongs', async (request, response) => {
-    const ongs = await connection('ongs').select('*');
+		routes.get('/ongs', async (request, response) => {
+		const ongs = await connection('ongs').select('*');
 
-    return response.json(ongs);
-});
+		return response.json(ongs);
+		});
+
+Resquest.headers
+	Guarda informações de login, quando há autencidação e etc. (dados do usuário, dados da localização e idioma, por exemplo)
+	
