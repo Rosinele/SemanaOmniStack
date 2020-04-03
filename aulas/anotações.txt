@@ -100,5 +100,9 @@ Resquest.headers
 
 Respostas HTTP
 	https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
-	
+
+CORS 
+	Define quem poderá acessar nossa aplicação
+	Instalando CORS 
+		npm install cors
 
