@@ -45,3 +45,39 @@
 	http://knexjs.org/
 	Iniciar knex
 		npx knex init
+
+> Entidades da aplicação
+	ONG
+	Caso (Incident)
+
+> Funcionalidades da aplicação
+	Login de ONG
+	Logout de ONG
+	Cadastro de ONG
+	Cadastrar novos casos
+	Deletar casos
+	Listar casos especificos de uma ONG
+	Listar todos os casos
+	Entrar em contato com a ONG
+
+> Migration
+	É uma forma de criar tabelas e manter um histórico das tabelas que foram criadas, alteradas, como se fosse um controle de versão do nosso banco de dados.
+	Criar uma Migration
+		npx knex migrate:make create_ongs
+			neste momento é criado o arquivo dentro do banco de dados com os exports.up e .down
+			error: sqlite does not support inserting default values:
+				esse errro ocorre porque o sqlite não suporta valores padrões para as colunas do banco de dados.
+			solução: adicionar useNullAsDefault: true no ambiente, no arquivo knexfile.js
+	No arquivo criado pela Migrations
+		O Método Up é Respons�vel por criar a tabela.
+		O Método Down é pra caso haja um problema, o que deve ser desfeito. (normalmente é deletar a tabela)
+			knex.schema.dropTable('ongs');
+	Criar a tabela
+		npx knex migrate:latest
+	Configurar chave estrangeira de uma tabela	
+		table.string('ong_id').notNullable();
+        table.foreign('ong_id').references('id').inTable('ongs');
+	Desfazer criação da Migrate (migrate:latest)
+		npx knex migrate:rollback
+	Listar Migrates que foram criadas
+		npx knex migrate:status
