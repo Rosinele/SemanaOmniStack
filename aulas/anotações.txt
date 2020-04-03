@@ -97,4 +97,8 @@ Rota para listar todos os dados que foram adicionados em uma determinada tabela
 
 Resquest.headers
 	Guarda informações de login, quando há autencidação e etc. (dados do usuário, dados da localização e idioma, por exemplo)
+
+Respostas HTTP
+	https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
 	
+
