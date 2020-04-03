@@ -81,3 +81,7 @@
 		npx knex migrate:rollback
 	Listar Migrates que foram criadas
 		npx knex migrate:status
+Gerar numero sequencial para o campo id
+	const crypto = require('crypto');
+		crypt é um pacote criptografia, mas pode nos auxiliar na criação de numeros sequenciais para o nosso campo
+		
