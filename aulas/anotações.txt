@@ -84,4 +84,10 @@
 Gerar numero sequencial para o campo id
 	const crypto = require('crypto');
 		crypt é um pacote criptografia, mas pode nos auxiliar na criação de numeros sequenciais para o nosso campo
-		
+
+Rota para listar todos os dados que foram adicionados em uma determinada tabela
+	routes.get('/ongs', async (request, response) => {
+    const ongs = await connection('ongs').select('*');
+
+    return response.json(ongs);
+});
