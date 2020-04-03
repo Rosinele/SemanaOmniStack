@@ -32,9 +32,12 @@
 
 > Tipos de parâmetros:
 	QUERY PARAMS: parâmetros nomeados enviados na rota após "?" (Filtros, paginação)
+	// query params const params = request.query;
 	ROUTE PARAMS: parâmetros utilizados para identificar recursos
+	// route params const params = request.params;
 	REQUEST BODY: Corpo da requisição, utilizado para criar ou alterar recursos
-
+    // request body const body = request.body;
+	
 > Banco de dados:
 	SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
 	NOSQL: MongoDB, CouchDB, etc
