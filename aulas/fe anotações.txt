@@ -1,0 +1,8 @@
+Componete
+    Basicamente é uma função que retorna um HTML
+JSX (JavaScritpt XML)
+    Quando uma HTML esta escrito dentro de uma JavaScritpt
+Live Reload
+    É o comportamento de atualização automática do React sem necessidade de atualizar a página
+> Usar {} quando for adicionar um código JavaScript dentro do HTML
+> props.children retorna a arvore HTML
