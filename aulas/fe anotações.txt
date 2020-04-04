@@ -6,3 +6,9 @@ Live Reload
     É o comportamento de atualização automática do React sem necessidade de atualizar a página
 > Usar {} quando for adicionar um código JavaScript dentro do HTML
 > props.children retorna a arvore HTML
+Estados
+    Toda vez que um estado é alterado, o componente vai ser remontado para exibir as novas informações em tela
+    importante importar o useState
+        > import React, {useState} from 'react';
+        o useStateretorna um array com [valor, funcaoDeAtualização]
+    O estado não pode ser alterado de forma direta, tem que sobrepor o valor da variável
