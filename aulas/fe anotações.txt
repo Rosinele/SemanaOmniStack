@@ -12,3 +12,14 @@ Estados
         > import React, {useState} from 'react';
         o useStateretorna um array com [valor, funcaoDeAtualização]
     O estado não pode ser alterado de forma direta, tem que sobrepor o valor da variável
+
+Habilitar emment no React
+    Tem que adicionar   "emmet.syntaxProfiles": {"javascript": "jsx"},
+                        "emmet.includeLanguages": {"javascript": "javascriptreact"},
+
+Instalar pacote de icones do React
+    npm install react-icons
+
+display: flex;
+    Mantem os itens alinhados um do lado do outro.
+    
