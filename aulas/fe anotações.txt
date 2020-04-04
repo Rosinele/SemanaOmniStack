@@ -22,4 +22,6 @@ Instalar pacote de icones do React
 
 display: flex;
     Mantem os itens alinhados um do lado do outro.
-    
+
+Instalação do pacote de Rotas do React  
+    npm install reacte-router-dom
