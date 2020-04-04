@@ -1,4 +1,4 @@
-Componete
+Componentes
     Basicamente é uma função que retorna um HTML
 JSX (JavaScritpt XML)
     Quando uma HTML esta escrito dentro de uma JavaScritpt
