@@ -25,3 +25,8 @@ display: flex;
 
 Instalação do pacote de Rotas do React  
     npm install reacte-router-dom
+
+Cliente HTTP
+    Responsável por conseguir fazer as nossas chamadas API do back-end e obter respostas
+    Instalação
+        npm intall axios
